@@ -1,0 +1,196 @@
+* {
+  background-color: #001a38;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #001a38;
+  max-height: 100vh;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 400px;
+  background-color: #003367;
+  margin: 20vh 25px;
+  border-radius: 25px;
+  box-shadow: 7.5px 10px #171d20;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  background-color: transparent;
+  color: bisque;
+  font-size: 28px;
+  text-align: start;
+  padding: 15px;
+}
+
+label {
+  background-color: transparent;
+  margin: 10px;
+}
+
+input {
+  padding: 5px 15px;
+  font-size: 28px;
+  border: transparent;
+  border-radius: 25px;
+  color: azure;
+  margin-top: 10px;
+}
+button {
+  margin: 15px;
+  font-size: 28px;
+  color: azure;
+  border: transparent;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: #00224e;
+  box-shadow: 2.5px 5px #1e2529;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #003367;
+  box-shadow: 2.5px 5px #2f3133;
+}
+
+p {
+  color: azure;
+}
+
+.submit {
+  width: fit-content;
+  align-self: center;
+  margin-top: 15px;
+  padding: 7px 25px;
+  box-shadow: 2px 5px #1e2529;
+}
+.submit:hover {
+  background-color: #00224e;
+  box-shadow: 2.5px 5px #2f3133;
+}
+
+.sphereDiv {
+  display: flex;
+  background-color: #00224e;
+  border-radius: 100px;
+  padding: 25px;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  box-shadow: 2.5px 5px #1e2529;
+}
+.sphereDiv:hover {
+  background-color: #003367;
+  box-shadow: 2.5px 5px #2f3133;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  background-color: transparent;
+  color: bisque;
+}
+
+/* DarkChat */
+.texting-field {
+  min-width: 300px;
+  max-width: 500px;
+  padding: 10px;
+  height: 80vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background-color: #00224e;
+  border-radius: 10px;
+}
+.texting-field::-webkit-scrollbar {
+  width: 0.25rem;
+}
+.texting-field::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+.texting-field::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+.texting-submit {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.texting-submit button {
+  margin: 0;
+  width: 20%;
+  padding: 5px;
+  height: 48px;
+  font-size: 16px;
+  background-color: #003367;
+  box-shadow: none;
+  margin-left: -38px;
+}
+.texting-submit button:hover {
+  background-color: #6649b8;
+}
+.texting-submit input {
+  margin: 0px;
+  margin-left: 28px;
+  height: 38px;
+  width: 68%;
+}
+
+.message {
+  background-color: transparent;
+}
+
+.message p {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  text-align: center;
+}
+
+.message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+.sent p {
+  color: azure;
+  background: #0b93f6;
+  align-self: flex-end;
+}
+
+.received p {
+  background: #e5e5ea;
+  color: #001a38;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
