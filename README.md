@@ -26,23 +26,27 @@ Offical S2 DOSTLAR Web App
    ### gs://your-app-id.appspot.c/users/{uid}/profile.jpg
     
 Install Firebase to your project with npm:
+
   `npm i -g firebase-tools`
 
 Log in to Firebase using your Google account:
+
   `firebase login`
   
 ## Hosting Setup
-  Run: `firebase init`
+  1) Run: 
   
-  !! Make sure that you are in the right directory you would use for deployment !! 
+    `firebase init`
   
-  Choose 'Hosting'
+    !! Make sure that you are in the right directory you would use for deployment !! 
   
-  Choose your project 
+  2) Choose 'Hosting'
   
-  Name your deployment directory (public)
+  3) Choose your project 
   
-  Choose no for single-page app configiration
+  4) Name your deployment directory (public)
+  
+  5) Choose no for single-page app configiration
   
   
 # Reactjs Setup
@@ -62,11 +66,14 @@ Log in to Firebase using your Google account:
     
 # Deploying to Firebase
   Build your app for production:
+  
     `npm run build`
   
   Copy-paste files inside your created 'build' folder to inside your deploymnet directory (public)
   
-  Run: `firebase deploy`
+  Run:
+  
+    `firebase deploy`
   
   
   # DONE!
