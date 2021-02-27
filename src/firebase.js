@@ -4,7 +4,7 @@ import 'firebase/firestore';
 import 'firebase/storage'
 
 const app = firebase.initializeApp({
-    //You shall not see this fucker
+    //privacy test vol 2
 });
 
 export const auth = app.auth();
