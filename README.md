@@ -17,9 +17,9 @@ Offical S2 DOSTLAR Web App
   Data Structure for DarkChat(ChatApp):
   
     collection('messages') => document(AutoID) => field(createdAt).(timeStamp)
-                                               && field(photoURL).(String)
-                                               && field(text).(String)
-                                               && field(uid).(String)
+                                               => field(photoURL).(String)
+                                               => field(text).(String)
+                                               => field(uid).(String)
                                                    
 ## Storage Setup
   Folder Structure for profile photos in DarkChat(ChatApp):
@@ -32,7 +32,7 @@ Log in to Firebase using your Google account:
   `firebase login`
   
 ## Hosting Setup
-  Run `firebase init`
+  Run: `firebase init`
   
   !! Make sure that you are in the right directory you would use for deployment !! 
   
@@ -66,8 +66,7 @@ Log in to Firebase using your Google account:
   
   Copy-paste files inside your created 'build' folder to inside your deploymnet directory (public)
   
-  Run: ###`firebase deploy`
-  
-  DONE!
+  Run: `firebase deploy`
   
   
+  # DONE!
