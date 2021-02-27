@@ -12,23 +12,23 @@ Offical S2 DOSTLAR Web App
 ## Firestore Setup
   Just click the 'Get Started' button.
   Data Structure for DarkChat(ChatApp):
-    ### collection('messages') => document(AutoID) => field(createdAt).(timeStamp)
-                                                   => field(photoURL).(String)
-                                                   => field(text).(String)
-                                                   => field(uid).(String)
+    collection('messages') => document(AutoID) => field(createdAt).(timeStamp)
+                                               && field(photoURL).(String)
+                                               && field(text).(String)
+                                               && field(uid).(String)
                                                    
 ## Storage Setup
   Folder Structure for profile photos in DarkChat(ChatApp):
    ### gs://your-app-id.appspot.c/users/{uid}/profile.jpg
     
 Install Firebase to your project with npm:
-  ### `npm i -g firebase-tools`
+  `npm i -g firebase-tools`
 
 Log in to Firebase using your Google account:
-  ### `firebase login`
+  `firebase login`
   
 ## Hosting Setup
-  Run ### `firebase init`
+  Run `firebase init`
   !! Make sure that you are in the right directory you would use for deployment !! 
   Choose 'Hosting'
   Choose your project
@@ -38,20 +38,20 @@ Log in to Firebase using your Google account:
   
 # Reactjs Setup
   Create your react app:
-    ### `npx create-react-app my-app`
+    `npx create-react-app my-app`
   Install Firebase:
-    ### `npm i firebase`
+    `npm i firebase`
   Install React Firebase Hooks
-    ### `npm i react-firebase-hooks`
+    `npm i react-firebase-hooks`
   Copy-paste your Firebase Web App config in '/src/firebase.js' file.
     
 # Deploying to Firebase
   Build your app for production:
-    ### `npm run build`
+    `npm run build`
   
   Copy-paste files inside your created 'build' folder to inside your deploymnet directory (public)
   
-  Run: ### `firebase deploy`
+  Run: ###`firebase deploy`
   
   DONE!
   
