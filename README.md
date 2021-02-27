@@ -3,7 +3,9 @@ Offical S2 DOSTLAR Web App
 
 # Firebase Setup
   Create a Firebase Project from Firebase console. (Enable Google Analytics if you wish)
+  
   Add your project a Web App.
+  
   Note your Firebase SDK Config somewhere.
 
 ## Authentication Setup
@@ -11,7 +13,9 @@ Offical S2 DOSTLAR Web App
 
 ## Firestore Setup
   Just click the 'Get Started' button.
+  
   Data Structure for DarkChat(ChatApp):
+  
     collection('messages') => document(AutoID) => field(createdAt).(timeStamp)
                                                && field(photoURL).(String)
                                                && field(text).(String)
@@ -29,20 +33,31 @@ Log in to Firebase using your Google account:
   
 ## Hosting Setup
   Run `firebase init`
+  
   !! Make sure that you are in the right directory you would use for deployment !! 
+  
   Choose 'Hosting'
+  
   Choose your project 
+  
   Name your deployment directory (public)
+  
   Choose no for single-page app configiration
   
   
 # Reactjs Setup
   Create your react app:
+  
     `npx create-react-app my-app`
+    
   Install Firebase:
+  
     `npm i firebase`
+    
   Install React Firebase Hooks
+  
     `npm i react-firebase-hooks`
+    
   Copy-paste your Firebase Web App config in '/src/firebase.js' file.
     
 # Deploying to Firebase
