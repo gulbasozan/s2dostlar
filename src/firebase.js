@@ -4,7 +4,7 @@ import 'firebase/firestore';
 import 'firebase/storage'
 
 const app = firebase.initializeApp({
-    //Firebase App Config
+    //You shall not see this fucker
 });
 
 export const auth = app.auth();
