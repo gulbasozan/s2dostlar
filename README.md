@@ -31,7 +31,7 @@ Log in to Firebase using your Google account:
   Run `firebase init`
   !! Make sure that you are in the right directory you would use for deployment !! 
   Choose 'Hosting'
-  Choose your project
+  Choose your project 
   Name your deployment directory (public)
   Choose no for single-page app configiration
   
