@@ -194,3 +194,31 @@ h2 {
   display: flex;
   align-items: center;
 }
+
+/* Gaci Rating Elements */
+
+.slider {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image {
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+  padding-right: 20px;
+}
+
+.image:hover {
+  opacity: 0.2;
+}
+
+.navbar {
+  padding-bottom: 30px;
+}
