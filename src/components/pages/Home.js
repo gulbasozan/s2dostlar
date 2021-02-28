@@ -6,7 +6,7 @@ const Home = () => {
     const [error, setError] = useState("")
     const {currentUser, logout} = useAuth()
     const history = useHistory()
-    
+
     async function handleLogout() {
         setError(' ')
 
